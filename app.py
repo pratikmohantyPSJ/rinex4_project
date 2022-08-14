@@ -2,7 +2,7 @@ import streamlit as st
 import joblib 
 
 #load the joblib model 
-model_nb = joblib.load('bmi-pred')
+model_nb = joblib.load('bmi')
 
 #user input 
 st.title("BMI PREDICTOR")
